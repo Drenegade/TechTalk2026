@@ -1,0 +1,6 @@
+{
+  "name": "TechTalk2026 - ICPeP Oman Chapter",
+  "description": "Premier annual technology and computer engineering symposium by the Institute of Computer Engineers of the Philippines (ICPeP) Oman Chapter, featuring technical sessions, speaker rosters, digital badge pass, CPD accreditation, and AI deep reasoning advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

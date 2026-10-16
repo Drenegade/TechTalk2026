@@ -91,7 +91,10 @@ export const Hero: React.FC<HeroProps> = ({
 
         {/* Main Headline */}
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white leading-none">
+          <h1 
+            style={{ color: '#2810c3' }}
+            className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-none"
+          >
             TechTalk<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500">2026</span>
           </h1>
 

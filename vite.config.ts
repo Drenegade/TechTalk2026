@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    base: '/TechTalk2026/', // Make sure to include the leading and trailing slashes!
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

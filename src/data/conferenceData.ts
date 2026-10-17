@@ -70,7 +70,7 @@ export const SPEAKERS: Speaker[] = [
     title: 'Principal Cloud Native Architect & Kubernetes Fellow',
     organization: 'Gulf Sovereign Cloud Solutions',
     bio: 'Specialist in multi-cloud mesh networks, high-availability data replication across GCC financial hubs, and edge microservices orchestration under sovereign data residency mandates.',
-    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80',
+    avatar: speaker5Avatar,
     country: 'Oman',
     specialty: ['Kubernetes', 'Cloud Sovereignty', 'DevSecOps'],
     featured: false,

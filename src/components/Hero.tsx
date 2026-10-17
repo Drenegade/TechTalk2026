@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({
             style={{ color: '#2810c3' }}
             className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-none"
           >
-            TechTalk<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500">2026</span>
+            TechTalk<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500">2028</span>
           </h1>
 
           <p className="mt-3 text-lg sm:text-2xl font-bold text-slate-200">

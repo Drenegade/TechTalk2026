@@ -1,4 +1,7 @@
 import { Speaker, Session, ShowcaseProject } from '../types';
+import speaker1Avatar from '../assets/images/regenerated_image_1792237272250.jpg';
+import speaker2Avatar from '../assets/images/regenerated_image_1792237773806.jpg';
+import speaker3Avatar from '../assets/images/regenerated_image_1792237775131.jpg';
 
 export const CONFERENCE_INFO = {
   name: 'TechTalk2026',
@@ -17,33 +20,33 @@ export const CONFERENCE_INFO = {
 export const SPEAKERS: Speaker[] = [
   {
     id: 'spk-1',
-    name: 'Engr. Ferdinand Cruz, PECE, ACPE',
+    name: 'Engr. Yellow Butterfly',
     title: 'ICPeP National Advisory Council & Senior Systems Principal',
     organization: 'ICPeP National / Global Engineering Consortium',
     bio: 'Pioneering computer engineering educator and practicing ASEAN Chartered Professional Engineer with over 25 years leading high-performance distributed systems, international accreditation standards, and regional engineering mobility in Southeast Asia and the Middle East.',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
+    avatar: speaker1Avatar,
     country: 'Philippines / UAE',
     specialty: ['Systems Architecture', 'PECE / ACPE Standards', 'Computer Systems Engineering'],
     featured: true,
   },
   {
     id: 'spk-2',
-    name: 'Dr. Tariq Al-Balushi',
+    name: 'Dr. Jelly Belly',
     title: 'Director of Digital Transformation & AI Initiatives',
     organization: 'Oman Ministry of Transport, Communications and IT (MTCIT)',
     bio: 'Key architect of the National Executive Program for Artificial Intelligence and Advanced Technologies under Oman Vision 2040. Research fellow specializing in sovereign digital ecosystems and GCC data governance.',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    avatar: speaker2Avatar,
     country: 'Sultanate of Oman',
     specialty: ['Oman Vision 2040', 'Sovereign Cloud', 'AI Strategy'],
     featured: true,
   },
   {
     id: 'spk-3',
-    name: 'Engr. Maria Elena Santos, CpE, CISSP',
+    name: 'Engr. Green Turtle',
     title: 'President, ICPeP Oman Chapter & Lead Cybersecurity Architect',
     organization: 'ICPeP Oman / Critical Infrastructure Energy Security',
     bio: 'Certified Computer Engineer with 18+ years designing zero-trust enterprise security architectures and OT/SCADA protection for critical oil, gas, and utility infrastructures across the Sultanate of Oman and GCC.',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    avatar: speaker3Avatar,
     country: 'Oman / Philippines',
     specialty: ['Cybersecurity OT/SCADA', 'Zero Trust', 'ICPeP Leadership'],
     featured: true,

@@ -2,6 +2,7 @@ import { Speaker, Session, ShowcaseProject } from '../types';
 import speaker1Avatar from '../assets/images/regenerated_image_1792237272250.jpg';
 import speaker2Avatar from '../assets/images/regenerated_image_1792237773806.jpg';
 import speaker3Avatar from '../assets/images/regenerated_image_1792237775131.jpg';
+import speaker4Avatar from '../assets/images/regenerated_image_1792240693719.jpg';
 
 export const CONFERENCE_INFO = {
   name: 'TechTalk2026',
@@ -53,11 +54,11 @@ export const SPEAKERS: Speaker[] = [
   },
   {
     id: 'spk-4',
-    name: 'Prof. Ahmed Al-Harthy, Ph.D.',
+    name: 'Prof. Jelo Melo',
     title: 'Professor of Embedded Systems & Autonomous Robotics',
-    organization: 'Sultan Qaboos University (SQU)',
+    organization: 'University of the Universe',
     bio: 'Author of over 70 peer-reviewed papers on low-power silicon edge inference, neuromorphic processing, and micro-drone swarms for arid and high-temperature environmental monitoring.',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
+    avatar: speaker4Avatar,
     country: 'Sultanate of Oman',
     specialty: ['Embedded Systems', 'Edge AI', 'Autonomous Robotics'],
     featured: false,
@@ -71,17 +72,6 @@ export const SPEAKERS: Speaker[] = [
     avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80',
     country: 'Oman',
     specialty: ['Kubernetes', 'Cloud Sovereignty', 'DevSecOps'],
-    featured: false,
-  },
-  {
-    id: 'spk-6',
-    name: 'Engr. Fatima Al-Zadjali, M.Sc.',
-    title: 'Head of Smart Grid & IoT Infrastructure',
-    organization: 'Nama Power & Water Services / PDO Partner',
-    bio: 'Directing the integration of IoT smart meters, distributed solar telemetry, and high-frequency real-time edge processing for Oman national power grid modernizations.',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
-    country: 'Sultanate of Oman',
-    specialty: ['IoT Smart Grids', 'Edge Telemetry', 'CleanTech Computing'],
     featured: false,
   },
 ];
@@ -144,7 +134,7 @@ export const SESSIONS: Session[] = [
     time: '03:45 PM - 05:45 PM',
     duration: '120 mins',
     room: 'Hall C: Hardware Lab',
-    speakerIds: ['spk-4', 'spk-6'],
+    speakerIds: ['spk-4'],
     cpdUnits: 2.5,
     level: 'Advanced',
     prerequisites: ['C / Embedded C', 'Microcontroller basics'],
@@ -175,7 +165,7 @@ export const SESSIONS: Session[] = [
     time: '11:15 AM - 12:45 PM',
     duration: '90 mins',
     room: 'Hall B: Cloud Nexus',
-    speakerIds: ['spk-5', 'spk-6'],
+    speakerIds: ['spk-5'],
     cpdUnits: 2.0,
     level: 'Intermediate',
     tags: ['Smart City', 'TinyML', 'Oman Water Grid', 'MQTT'],

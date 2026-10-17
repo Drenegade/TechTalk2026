@@ -3,6 +3,7 @@ import speaker1Avatar from '../assets/images/regenerated_image_1792237272250.jpg
 import speaker2Avatar from '../assets/images/regenerated_image_1792237773806.jpg';
 import speaker3Avatar from '../assets/images/regenerated_image_1792237775131.jpg';
 import speaker4Avatar from '../assets/images/regenerated_image_1792240693719.jpg';
+import speaker5Avatar from '../assets/images/slot_spk_agatep.webp';
 
 export const CONFERENCE_INFO = {
   name: 'TechTalk2026',

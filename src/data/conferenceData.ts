@@ -66,7 +66,7 @@ export const SPEAKERS: Speaker[] = [
   },
   {
     id: 'spk-5',
-    name: 'Engr. Arnel Del Rosario, M.Eng, CpE',
+    name: 'Engr. Lino Tata',
     title: 'Principal Cloud Native Architect & Kubernetes Fellow',
     organization: 'Gulf Sovereign Cloud Solutions',
     bio: 'Specialist in multi-cloud mesh networks, high-availability data replication across GCC financial hubs, and edge microservices orchestration under sovereign data residency mandates.',
